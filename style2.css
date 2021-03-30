@@ -1,0 +1,60 @@
+Body{
+    margin: 0%;
+    padding: 0;
+    background: url("images/background1.jpg") no-repeat center;
+    background-size: cover;
+}
+.header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    text-align:center;
+}
+h1{
+    color:rgb(2, 0, 0);
+    margin-bottom: 70px ;
+    font-size: 45px;
+    letter-spacing: 2px ;
+    text-align: center;
+}
+.form-box{
+    text-align: center;
+    height: 50px;
+    background:rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.search-field{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px ;
+    outline: none;
+    position: relative;
+}
+.patient{
+    width: 200px;
+    position:relative
+}
+.patient_id{
+    width: 200px;
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    background: #ff652f;
+    text-align: center;
+    color: #000;
+    border-radius: 25px;
+    position: relative;
+
+}
+.search-btn:hover{
+    background: #b63d12;
+    cursor : pointer;
+}
+
